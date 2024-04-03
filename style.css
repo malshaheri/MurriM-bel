@@ -327,31 +327,31 @@ header {
     color: #fff;
     background: var(--main-color);
   }
-  .about{
+  .about {
     grid-template-columns: 1fr;
     text-align: center;
   }
-  .box-img{
+  .box-img {
     padding: 1rem;
     order: 2;
   }
 }
 
-@media (max-width: 491px){
-    .home-text h1{
-        font-size: 1.7rem;
-    }
-    .shop-container,
-    .new-container {
-      grid-template-columns: repeat(auto-fit, minmax(200px, auto));
-    }
-    .box .box-img{
-        height: 300px;
-    }
-    .news-box input{
-        width: 180px;
-    }
-    .about-text h2{
-        font-size: 1.2rem;
-    }
+@media (max-width: 491px) {
+  .home-text h1 {
+    font-size: 1.7rem;
+  }
+  .shop-container,
+  .new-container {
+    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  }
+  .box .box-img {
+    height: 300px;
+  }
+  .news-box input {
+    width: 180px;
+  }
+  .about-text h2 {
+    font-size: 1.2rem;
+  }
 }
